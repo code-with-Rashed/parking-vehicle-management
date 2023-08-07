@@ -1,0 +1,48 @@
+.sidebar {
+  position: fixed;
+  background-color: #d85c27;
+  width: 240px;
+  height: 100%;
+}
+
+.logo-details {
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-name {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.sidebar-links {
+  margin-top: 10px;
+}
+
+.sidebar-links li {
+  position: relative;
+  list-style: none;
+  height: 50px;
+}
+
+.sidebar-links li a {
+  display: block;
+  text-decoration: none;
+  padding: 10px;
+  font-size: 15px;
+  font-weight: 500;
+  color: #fff;
+  transition: 0.5s;
+}
+
+.router-link-active {
+  background-color: #444;
+}
+
+.sidebar-links li a:hover {
+  background-color: #fff;
+  color: #444;
+}
