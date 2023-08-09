@@ -1,7 +1,6 @@
 import { ref } from "vue";
-import { API_URL } from "../../env";
 export default function useAdminApi() {
-  const url = API_URL + "/admin/";
+  const url = import.meta.env.VITE_API_URL + "/admin/";
   const results = ref([]);
   const errors = ref(null);
   const statusCode = ref(null);
