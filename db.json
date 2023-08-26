@@ -1,0 +1,117 @@
+{
+  "vehicle_category": [
+    {
+      "category_name": "Texi",
+      "parking_charge": 200,
+      "status": "1",
+      "id": 1
+    },
+    {
+      "category_name": "Truc",
+      "parking_charge": 1000,
+      "status": "1",
+      "id": 2
+    },
+    {
+      "category_name": "Bicycle",
+      "parking_charge": 10,
+      "status": "1",
+      "id": 3
+    },
+    {
+      "category_name": "Motorcicle",
+      "parking_charge": 30,
+      "status": "1",
+      "id": 4
+    },
+    {
+      "category_name": "Micro",
+      "parking_charge": 120,
+      "status": "1",
+      "id": 5
+    },
+    {
+      "category_name": "Picup",
+      "parking_charge": 150,
+      "status": "1",
+      "id": 6
+    }
+  ],
+  "vehicles": [
+    {
+      "parking_number": 235,
+      "vehicle_category": 1,
+      "vehicle_company": "BMW",
+      "registration_number": "BD - 132",
+      "owner_name": "Rashed alam",
+      "owner_contact": "01820791378",
+      "vehicle_intime": "2023-07-26T16:59",
+      "vehicle_outtime": "8/1/23, 12:30 AM",
+      "parking_charges": 25504,
+      "status": 0,
+      "id": 1
+    },
+    {
+      "parking_number": 461,
+      "vehicle_category": 2,
+      "vehicle_company": "TATA",
+      "registration_number": "BD - 983",
+      "owner_name": "Arafat islam",
+      "owner_contact": "01968058993",
+      "vehicle_intime": "2023-07-26T17:00",
+      "vehicle_outtime": "7/29/23, 6:20 PM",
+      "parking_charges": 73334,
+      "status": 0,
+      "id": 2
+    },
+    {
+      "parking_number": 453,
+      "vehicle_category": 3,
+      "vehicle_company": "BD",
+      "registration_number": "L - 012",
+      "owner_name": "Mujahid islam",
+      "owner_contact": "01811180982",
+      "vehicle_intime": "2023-07-29T18:17",
+      "vehicle_outtime": "",
+      "parking_charges": "",
+      "status": 1,
+      "id": 3
+    },
+    {
+      "parking_number": 1009,
+      "vehicle_category": 4,
+      "vehicle_company": "HERO",
+      "registration_number": "BD - 843",
+      "owner_name": "Junyd nahid",
+      "owner_contact": "01537196975",
+      "vehicle_intime": "2023-07-29T18:20",
+      "vehicle_outtime": "",
+      "parking_charges": "",
+      "status": 1,
+      "id": 4
+    },
+    {
+      "parking_number": 848,
+      "vehicle_category": 5,
+      "vehicle_company": "TOYTA",
+      "registration_number": "BD - 375",
+      "owner_name": "Affan sekh",
+      "owner_contact": "01921308412",
+      "vehicle_intime": "2023-08-01T01:10",
+      "vehicle_outtime": "",
+      "parking_charges": "",
+      "status": 1,
+      "id": 5
+    }
+  ],
+  "admin": [
+    {
+      "name": "Rashed alam",
+      "email": "rashed@gmail.com",
+      "phone": "01863049783",
+      "username": "admin",
+      "password": "admin",
+      "id": 1
+    }
+  ]
+}
